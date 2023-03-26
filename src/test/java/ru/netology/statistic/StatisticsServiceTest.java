@@ -15,6 +15,7 @@ public class StatisticsServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     void findMaxIfIncomeOverThenCurrentMax() {
         StatisticsService service = new StatisticsService();
